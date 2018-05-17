@@ -47,6 +47,9 @@ header a:hover {
 
 /* About Us Main Content */
 
+.card a:hover {
+    cursor: pointer;
+}
 .tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
