@@ -26,11 +26,6 @@ header a {
     font-size: 22px;
     padding: 4px;
 }
-header a:hover {
-    color: floralwhite;
-    text-decoration: none;
-    text-transform: uppercase;
-}
 
 /* Carousel */
 
