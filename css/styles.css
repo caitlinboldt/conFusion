@@ -48,6 +48,12 @@ header a {
     font-size: 20px;
     font-weight: 600;
 }
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+}
+
 /* Main Content */
 
 .row-header{
