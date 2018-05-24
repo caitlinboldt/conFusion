@@ -1,105 +1,53 @@
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
-/* Nav Bar */
-
-.navbar-dark {
-    background-color: #512DA8;
-}
-.login {
-    cursor: pointer;
-}
-
-/* Header */
-
-.jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: #9575CD;
-    color:floralwhite;
-}
-header a {
-    border: 1px solid black;
-    color: black;
-    font-size: 22px;
-    padding: 4px;
-}
-
-/* Carousel */
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
 
 .carousel {
-    background:#512DA8;
-}
-.carousel-item {
-  height: 300px;
-}
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 300px;
-}
-.carousel-item h2 {
-    font-weight: 700;
-}
-.carousel-item p {
-    font-size: 20px;
-    font-weight: 600;
-}
+  background: #512DA8; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
 #carouselButton {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-}
+  right: 0px;
+  position: absolute;
+  bottom: 0px; }
 
-/* Main Content */
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px; }
 
-.row-header{
-    margin:0px auto;
-    padding:0px;
-}
-.main h3 {
-    padding: 15px;
-}
-.row-content {
-    margin:0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height:400px;
-}
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #9575CD;
+  color: floralwhite; }
 
-/* About Us Main Content */
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
 
-.card a:hover {
-    cursor: pointer;
-}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #512DA8; }
+
 .tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
-
-/* Footer */
-
-.footer{
-    background-color: #D1C4E9;
-    margin:0px auto;
-    padding: 20px 0px 20px 0px;
-}
-.footer a {
-    padding: 3px;
-}
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0f0f;
-}
-.copyright {
-    padding-top: 12px;
-}
-.links {
-    padding: 5px;
-}
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px; }
