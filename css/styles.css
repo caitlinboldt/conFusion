@@ -1,3 +1,16 @@
+.login {
+  cursor: pointer;
+}
+.modal-header {
+  background: #512DA8; }
+  .modal-header h4 {
+    color: floralwhite; }
+  .modal-header .close {
+    color: floralwhite; }
+
+.modal-body {
+  background: #D1C4E9; }
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px; }
